@@ -9,7 +9,7 @@ namespace ConsoleApp3
             Console.Write("ingrese su salario mensual actual: ");
             double salario = double.Parse(Console.ReadLine());
 
-            //double canSmmlv = (salario / 877803);
+            double canSmmlv = (salario / 877803);
             //Console.WriteLine("la cantidad de salarios minimos mensuales legales vigentes (SMMLV) es: " + canSmmlv);
 
             if (canSmmlv < 2)
